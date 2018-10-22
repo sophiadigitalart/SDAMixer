@@ -1,0 +1,26 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDAMixer", "SDAMixer.vcxproj", "{3AE10E9B-9808-43E5-B7E5-AF1D3E1E199D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AE10E9B-9808-43E5-B7E5-AF1D3E1E199D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3AE10E9B-9808-43E5-B7E5-AF1D3E1E199D}.Debug|Win32.Build.0 = Debug|Win32
+		{3AE10E9B-9808-43E5-B7E5-AF1D3E1E199D}.Release|Win32.ActiveCfg = Release|Win32
+		{3AE10E9B-9808-43E5-B7E5-AF1D3E1E199D}.Release|Win32.Build.0 = Release|Win32
+		{3AE10E9B-9808-43E5-B7E5-AF1D3E1E199D}.Debug|x64.ActiveCfg = Debug|x64
+		{3AE10E9B-9808-43E5-B7E5-AF1D3E1E199D}.Debug|x64.Build.0 = Debug|x64
+		{3AE10E9B-9808-43E5-B7E5-AF1D3E1E199D}.Release|x64.ActiveCfg = Release|x64
+		{3AE10E9B-9808-43E5-B7E5-AF1D3E1E199D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
