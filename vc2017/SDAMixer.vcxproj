@@ -93,8 +93,8 @@
       <AdditionalIncludeDirectories>"..\..\..\Cinder\include";..\include</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>cinder-$(PlatformToolset)_d.lib;OpenGL32.lib;%(AdditionalDependencies);winmm.lib;..\..\..\Cinder\blocks\Cinder-Spout\lib\Spout.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>"..\..\..\Cinder\lib\msw\$(PlatformTarget)";..\..\..\Cinder\blocks\Cinder-SDA\lib;..\..\..\Cinder\blocks\Cinder-WebSocketPP\lib\msw</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cinder.lib;OpenGL32.lib;%(AdditionalDependencies);winmm.lib;..\..\..\Cinder\blocks\Cinder-Spout\lib\Spout.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\Cinder\lib\msw\$(PlatformTarget);..\..\..\Cinder\lib\msw\$(PlatformTarget)\$(Configuration)\$(PlatformToolset)\;..\..\..\Cinder\blocks\Cinder-SDA\lib;..\..\..\Cinder\blocks\Cinder-WebSocketPP\lib\msw</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
@@ -153,8 +153,8 @@
       <AdditionalIncludeDirectories>"..\..\..\Cinder\include";..\include</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>cinder-$(PlatformToolset).lib;OpenGL32.lib;%(AdditionalDependencies);winmm.lib;..\..\..\Cinder\blocks\Cinder-Spout\lib\Spout.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>"..\..\..\Cinder\lib\msw\$(PlatformTarget)";..\..\..\Cinder\blocks\Cinder-SDA\lib;..\..\..\Cinder\blocks\Cinder-WebSocketPP\lib\msw</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cinder.lib;OpenGL32.lib;%(AdditionalDependencies);winmm.lib;..\..\..\Cinder\blocks\Cinder-Spout\lib\Spout.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\Cinder\lib\msw\$(PlatformTarget);..\..\..\Cinder\lib\msw\$(PlatformTarget)\$(Configuration)\$(PlatformToolset)\;..\..\..\Cinder\blocks\Cinder-SDA\lib;..\..\..\Cinder\blocks\Cinder-WebSocketPP\lib\msw</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <GenerateMapFile>true</GenerateMapFile>
       <SubSystem>Windows</SubSystem>
@@ -225,7 +225,6 @@
     <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDAAnimation.h" />
     <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDAFbo.h" />
     <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDALog.h" />
-    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDAMix.h" />
     <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDARouter.h" />
     <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDASession.h" />
     <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDASettings.h" />
@@ -244,7 +243,6 @@
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui.cpp" />
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_draw.cpp" />
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_demo.cpp" />
-    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\ImGuizmo\ImGuizmo.cpp" />
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\src\MidiHub.cpp" />
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\src\MidiIn.cpp" />
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\src\MidiMessage.cpp" />
@@ -254,7 +252,6 @@
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDAAnimation.cpp" />
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDAFbo.cpp" />
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDALog.cpp" />
-    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDAMix.cpp" />
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDARouter.cpp" />
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDASession.cpp" />
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDASettings.cpp" />

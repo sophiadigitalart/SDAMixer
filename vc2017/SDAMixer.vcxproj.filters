@@ -95,9 +95,6 @@
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_demo.cpp">
       <Filter>Blocks\ImGui\lib\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\ImGuizmo\ImGuizmo.cpp">
-      <Filter>Blocks\ImGui\lib\ImGuizmo</Filter>
-    </ClCompile>
     <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiConstants.h">
       <Filter>Blocks\Midi2\include</Filter>
     </ClInclude>
@@ -152,9 +149,6 @@
     <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDALog.h">
       <Filter>Blocks\Cinder-SDA\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDAMix.h">
-      <Filter>Blocks\Cinder-SDA\include</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDARouter.h">
       <Filter>Blocks\Cinder-SDA\include</Filter>
     </ClInclude>
@@ -189,9 +183,6 @@
       <Filter>Blocks\Cinder-SDA\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDALog.cpp">
-      <Filter>Blocks\Cinder-SDA\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDAMix.cpp">
       <Filter>Blocks\Cinder-SDA\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDARouter.cpp">

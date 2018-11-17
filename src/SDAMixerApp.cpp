@@ -187,8 +187,10 @@ void SDAMixerApp::draw()
 	gl::setMatricesWindow(mSDASettings->mRenderWidth, mSDASettings->mRenderHeight, false);
 	gl::draw(mSDASession->getMixTexture(), getWindowBounds());
 	gl::drawString("fps: " + std::to_string((int)getAverageFps()), vec2(getWindowWidth() - toPixels(100), toPixels(20)), Color(1, 1, 1), Font("Verdana", toPixels(24)));
-	for (unsigned int f = 0; f < mSDASession->getFboListSize(); f++) {
-		gl::draw(mSDASession->getFboRenderedTexture(mSDASession->getFboRenderedTexture(f)->getId()), Area(0, 0, f * mSDASettings->mPreviewFboWidth, f * mSDASettings->mPreviewFboHeight));
+	//for (unsigned int f = 0; f < mSDASession->getFboListSize(); f++) {
+		//gl::draw(mSDASession->getFboRenderedTexture(mSDASession->getFboRenderedTexture(f)->getId()), Area(0, 0, f * mSDASettings->mPreviewFboWidth, f * mSDASettings->mPreviewFboHeight));
+	for (unsigned int f = 0; f < mSDASession->getFboListSize() - 1; f++) {
+		gl::draw(mSDASession->getFboRenderedTexture(f), Area(0, 0, f *  mSDASettings->mPreviewFboWidth, f * mSDASettings->mPreviewFboHeight));
 	}
 	// Spout Send
 	mSpoutOut.sendViewport();
