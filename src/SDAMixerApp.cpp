@@ -66,7 +66,7 @@ SDAMixerApp::SDAMixerApp()
 	: mSpoutOut("SDAMixer", app::getWindowSize())
 {
 	// Settings
-	mSDASettings = SDASettings::create();
+	mSDASettings = SDASettings::create("Mixer");
 	// Session
 	mSDASession = SDASession::create(mSDASettings);
 	//mSDASettings->mCursorVisible = true;

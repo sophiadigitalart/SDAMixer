@@ -60,6 +60,15 @@
     <Filter Include="Blocks\Cinder-WebSocketPP\src">
       <UniqueIdentifier>{6258DECC-CAB7-4C09-AD99-49BDB1FA4CF7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="debug">
+      <UniqueIdentifier>{571093a3-eccb-4f3f-84e0-915eac1d33ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="release">
+      <UniqueIdentifier>{2cede0f5-a0d0-4e19-9023-706eb2319264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC">
+      <UniqueIdentifier>{e2c42e88-5b3d-44e1-a41f-f804039e8d61}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\SDAMixerApp.cpp">
@@ -224,15 +233,29 @@
     <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketServer.h">
       <Filter>Blocks\Cinder-WebSocketPP\src</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\..\Cinder\blocks\OSC\src\cinder\osc\Osc.cpp">
+      <Filter>Blocks\OSC</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\OSC\src\cinder\osc\Osc.h">
+      <Filter>Blocks\OSC</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Resources.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Debug\SDAMixer.xml">
+      <Filter>debug</Filter>
+    </Xml>
+    <Xml Include="Release\SDAMixer.xml">
+      <Filter>release</Filter>
+    </Xml>
   </ItemGroup>
 </Project>
